@@ -1,16 +1,12 @@
 #include <stdio.h>
-void main()
+/*main prints a-z in uppercase and lowercase*/
+int main(void)
 {
-	int ch;
-clrscr()
-printf(“Print all uppercase letters followed by all lowercase letters on the next line :\n”);
-/* print uppercase letters */
-for (ch= ‘A’; ch<= ‘Z’; ch++)
-putchar(ch);
-putchar (‘\n’ ) ;
-/* print lowercase letters */
-for (ch= ‘a’; ch<= ‘z’; ch++)
-putchar(ch);
-putchar (‘\n’) ;
-getch();
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
+	putchar('\n');
+	return (0);
 }
