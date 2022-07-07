@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
-*Main: Entry point
+*Main: Entry point.
 *Description: write a program that prints "_putchar" followed by a new line.
 *Return: Always 0 (Success.)
 */
