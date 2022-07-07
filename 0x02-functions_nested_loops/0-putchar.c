@@ -6,6 +6,7 @@
 *Description: write a program that prints "_putchar" followed by a new line.
 *Return: Always 0 (Success.)
 */
+/* Main: Entry point*/
 int main(void)
 {
 	_putchar('_');
