@@ -13,5 +13,7 @@ c = 'a';
 printf("%c: %d\n", c, _isupper(c));
 return (0);
 int _isdigit(int c);
+return(0);
+int mul(int a, int b);
 return(0)
 }
