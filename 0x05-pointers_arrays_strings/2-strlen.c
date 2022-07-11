@@ -4,7 +4,7 @@
 * @str: string.
 * Return: Length
 */
-int _strlen( char *str)
+int _strlen(char *str)
 {
 	int len = 0;
 
