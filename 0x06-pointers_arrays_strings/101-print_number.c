@@ -6,6 +6,7 @@
 void print_number(int n)
 {
 	unsigned int i = 1;
+
 	if (n < 0)
 	{
 		_putchar('_');
@@ -15,9 +16,9 @@ void print_number(int n)
 	{
 		_putchar('0');
 	}
-	else 
+	 else 
 	{
-		while((n / i) >= 10)
+		while ((n / i) >= 10)
 		{
 			_putchar((n / i) + '0');
 			n %= i;
